@@ -1,0 +1,44 @@
+{
+  "name": "loginpagev2",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "lint-staged": {
+      "**/*":"prettier --write --ignore-unknown"
+    },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "prepare": "husky install"
+    
+  },
+  "dependencies": {
+    "framer-motion": "^9.0.2",
+    "node-fetch": "^3.3.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.43.1",
+    "react-router-dom": "^6.8.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "@typescript-eslint/eslint-plugin": "^5.51.0",
+    "@vitejs/plugin-react-swc": "^3.0.0",
+    "eslint": "^8.34.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-config-standard-with-typescript": "^34.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^15.6.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-react": "^7.32.2",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.1.1",
+    "prettier": "2.8.4",
+    "tailwindcss": "^3.2.6",
+    "typescript": "^4.9.5",
+    "vite": "^4.1.0"
+  }
+  
+}
