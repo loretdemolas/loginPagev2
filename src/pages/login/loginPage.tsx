@@ -8,7 +8,6 @@ export function Login() {
     Email: string;
     Password: string;
   }
-
   const {
     register,
     handleSubmit,
