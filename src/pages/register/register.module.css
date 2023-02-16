@@ -1,4 +1,4 @@
-.loginPage {
+.Page {
   overflow: hidden;
   position: absolute;
   background-color: aliceblue;
@@ -11,7 +11,7 @@
   align-items: center; /*centers items on the cross-axis (y by default)*/
 }
 
-.loginBox {
+.Box {
   background-color: white;
   display: flex;
   flex-direction: column;
@@ -50,13 +50,6 @@
   color: red;
   text-align: center;
 }
-.forgotPassword {
-  text-align: end;
-  font-size: small;
-  line-height: 1.5px;
-  font-weight: 100;
-  color: grey;
-}
 .submit {
   width: 100%;
   border-radius: 5px;
@@ -65,11 +58,11 @@
   color: #ffffff;
   text-align: center;
   font-size: 28px;
-  margin-top: px;
+  margin-top: 10px;
 }
 
 .register {
-  margin-top: 40px;
+  margin-top: px;
   text-align: center;
   font-size: small;
   line-height: 1.5px;

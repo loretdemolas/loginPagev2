@@ -1,4 +1,4 @@
-.loginPage {
+.Page {
   overflow: hidden;
   position: absolute;
   background-color: aliceblue;
@@ -11,7 +11,7 @@
   align-items: center; /*centers items on the cross-axis (y by default)*/
 }
 
-.loginBox {
+.Box {
   background-color: white;
   display: flex;
   flex-direction: column;
@@ -69,7 +69,7 @@
 }
 
 .register {
-  margin-top: 40px;
+  margin-top: 50px;
   text-align: center;
   font-size: small;
   line-height: 1.5px;
