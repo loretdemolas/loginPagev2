@@ -20,7 +20,7 @@
     "jsx": "react-jsx",
     "plugins": [{ "name": "typescript-plugin-css-modules" }]
   },
-  "include": ["src", ".eslintrc.json", "vite.config.ts"],
+  "include": ["src", "vite.config.ts"],
   "exclude": ["node_modules"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

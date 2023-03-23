@@ -1,6 +1,6 @@
 import { type SubmitHandler, useForm } from 'react-hook-form';
 import styles from './login.module.css';
-import logo from './images/weight-plates.png';
+import logo from './images/weightplate.png';
 import { Link } from 'react-router-dom';
 
 export function Login() {
